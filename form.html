@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>formularios</h1>
+    <!-- action donde envia datos y que hacer con ellos
+         METHOD get(obtiene info dame el index.html) y post(envio info) -->
+    <form action="/index.html" method="get">
+        <input type="text" name="usuario"><!-- sale en la url cuando esbribo -->
+        <input type="password" name="contraseña">
+        <input type="number" name="cola">
+    <button>enviar</button>
+        <div>
+            <p>button</p>
+            <input type="button" value="tipo botón"><!-- se usa mucho -->
+        </div>
+        <div>
+            <p>checkbox</p>
+            <input type="checkbox" name="accept-conditions">acepto condi
+        </div>
+        <div>
+            <p>color</p>
+            <input type="color" name="color-select">
+        </div>
+        <div>
+            <p>fecha</p>
+            <input type="date" name="date-birth">
+        </div>
+        <div>
+            <p>datetime-local</p>
+            <input type="datetime-local" name="local-time"> <!-- se usa pco -->
+        </div>
+        <div>
+            <p>time</p>
+            <input type="time" name="time"> <!-- se usa poco -->
+        </div>
+        <div>
+            <p>email</p>
+            <input type="email" name="email"> <!-- se usa mucho -->
+        </div>
+        <div>
+            <p>file</p>
+            <input type="file" name="file"> <!-- se usa mucho -->
+        </div>
+
+        <input type="hidden" value="value-hide" name="hidden">
+       
+        <div>
+            <p>texto</p>
+            <input type="text" name="texto"> <!-- se usa mucho -->
+        </div>
+        <div>
+            <p>month</p>
+            <input type="month" name="month"> 
+        </div>
+        <div>
+            <p>radio</p>
+            <input type="radio" name="radio" value="opc-1"> <span>Opcion 1</span>
+            <input type="radio" name="radio" value="opc-2"> <span>Opcion 2</span>
+            <input type="radio" name="radio" value="opc-3"> <span>Opcion 3</span>
+        </div>
+        <div>
+            <p>rango</p>
+            <input type="range" name="range"> 
+        </div>
+        <div>
+            <p>reset</p>
+            <input type="reset" name="reset"><!-- se usa mucho --> 
+        </div>
+        <div>
+            <p>search</p>
+            <input type="search" name="search"> <!-- se usa mucho -->
+        </div>
+        <div>
+            <p>phone</p>
+            <input type="tel" name="tel"> 
+        </div>
+        <div>
+            <p>url</p>
+            <input type="url" name="link"> <!-- se usa mucho -->
+        </div>
+        <div>
+            <p>week</p>
+            <input type="week" name="semana"> 
+        </div>
+    </form>
+</body>
+</html>
